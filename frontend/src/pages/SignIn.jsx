@@ -43,7 +43,7 @@ const handleSignIn=async ()=>{
 
 <div className='flex gap-[10px] items-center text-[20px] font-semibold mt-[40px]'>
     <span>Sign In to </span>
-    <img src={logo} alt="" className='w-[70px]'/>
+    <img src={logo} alt="" className='w-[100px]'/>
 </div>
 
 
@@ -68,8 +68,8 @@ const handleSignIn=async ()=>{
 </div>
 <div className='md:w-[50%] h-full hidden lg:flex justify-center items-center bg-[#000000] flex-col gap-[10px] text-white text-[16px] font-semibold rounded-l-[30px] shadow-2xl shadow-black'>
 
-<img src={logo1} alt="" className='w-[40%]'/>
-<p >Not Just A Platform , It's A VYBE</p>
+<img src={logo1} alt="" className='w-[60%]'/>
+<p className='text-[20px] font-semibold mt-[40px]'>The Social Side of You</p>
 </div>
       </div>
     </div>
